@@ -1,0 +1,351 @@
+body{
+    display: block;
+    overflow-x: hidden;
+}
+
+.top-bar ul{
+    overflow: hidden;
+    float: left;
+    display: flex;
+    margin: 20px;
+    width: 96%;
+    border-radius: 5px;
+}
+.top-bar ul li{
+    padding: 14px 8px;
+    list-style-type: none;
+}
+.top-bar ul li a{
+    padding: 22px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.445);
+    text-decoration: none;
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+}
+.nvs-a-r{
+    position: relative;
+    right: -960px;
+}
+
+
+.top-bar ul li:hover{
+    border: none;
+    border-radius: 20px;
+
+}
+.top-bar ul li a:hover{
+    transition: 0.3s;
+    color: black;
+}
+
+.top-bar h1 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    position: relative;
+    top:-10px;
+    left: -40px;
+}
+.top-bar h1 span {
+    color: #792A10;;
+    position: relative;
+    font-family: "Share Tech Mono", monospace;
+}
+.top-bar h1 span::before {
+    content: "";
+    height: 30px;
+    width: 2px;
+    position: absolute;
+    top: 50%;
+    right: -8px;
+    background: #d8d2d298;;
+    transform: translateY(-45%);
+    animation: blink 0.7s infinite;
+}
+.top-bar h1 span.stop-blinking::before {
+    animation: none;
+}
+@keyframes blink {
+    50% { opacity: 0 }
+}
+.decode-text {
+    width: 100%;
+    font-size: 35px;
+    left: 650px;
+    position: relative;
+    top: 60px;
+}
+.space {
+    display: inline-block;
+    width: 10px;
+}
+.text-animation {
+    display: inline-block;
+    position: relative;
+    color: transparent;
+    text-transform: uppercase;
+}
+.text-animation:before {
+    content: "";
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #ffffff;
+    width: 0;
+    height: 1.2em;
+    -webkit-transform: translate(-50%, -55%);
+    -ms-transform: translate(-50%, -55%);
+    transform: translate(-50%, -55%);
+}
+.text-animation.state-1:before {
+    width: 1px;
+}
+.text-animation.state-2:before {
+    width: 0.9em;
+}
+.text-animation.state-3 {
+    color: rgb(255, 255, 255);
+}
+.text-animation.state-3:before {
+    width: 0;
+}
+#refresh {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+}
+
+.abt-m2{
+    position: relative;
+    right: -850px;
+    top: -260px;
+    
+    
+}
+.frm-1{
+    position: relative;
+    left: -26px;
+    width: 1950px;
+    height: 300%;
+    top: -18px;
+
+}
+.frm-h{
+    padding: 30px;
+    float: left;
+    position: relative;
+    left: 70px;
+    top: 90px; 
+    font-family: "Montserrat", sans-serif;
+
+    
+}
+
+.sp-1 a{
+    font-size: 20px;
+    font-family: "Share Tech Mono", monospace;
+}
+
+.a-1 a:hover{
+    color: red;
+}
+.pp-1  {
+    font-family: "Montserrat", sans-serif;
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    margin: 2px;
+    
+}
+.cnct h1{
+    position: relative;
+    padding: 16px 14px;
+    left: 20px;
+}
+.cnct{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    height: 280px;
+}
+.h-s-1{
+    font-size: 20px;
+    left: 35px;
+    position: relative;
+    top: -180px;
+    color: rgba(255, 255, 255, 0.671);
+}
+.h-s-2{
+    position: relative;
+    left: 30px;
+    font-size:30px;
+    top: -200px;
+    color: rgb(255, 255, 255);
+}
+.i-s-1{
+    position: relative;
+    left: 1080px;
+    border-radius: 10px;
+    top:-50px;
+}
+.i-s-1:hover{
+    transition: 0.2s;
+    transform: scale(1.2);
+}
+.i-s-2{
+    position: relative;
+    left: 1020px;
+    border-radius: 10px;
+    top:12px;
+}
+.i-s-2:hover{
+    transition: 0.2s;
+    transform: scale(1.2);
+}
+.h-s-3{
+    position: relative;
+    left: -425px;
+    font-size:30px;
+    top: -170px;
+}
+.fvc{
+    position: relative;
+    left: 720px;
+    top: -140px;
+}
+.f-bottom{
+    position: relative;
+    background-color: white;
+    height: 500px;
+    left: -5px;
+    width: 102%;
+    
+}
+.f-b-s{
+    position: relative;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+
+    top: 50px;
+}
+.imgs-f{
+    position: relative;
+    left: 280px;
+}
+.sps-2{
+    font-family: "Montserrat", sans-serif;
+}
+.create{
+    color: rgba(255, 255, 255, 0.507);
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    left: 10px;
+    top: 150px;
+}
+.message{
+    position: relative;
+    top: 20px;
+    left: 880px;
+    width: 50%;
+}
+.msg-n{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+.text-a{
+    position: relative;
+    top: 50px;
+    left: -200px;
+    width: 250px;
+    height: 30px;
+
+}
+.btn-a{
+    appearance: none;
+    background-color: #FAFBFC;
+    border: 1px solid rgba(27, 31, 35, 0.15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+    box-sizing: border-box;
+    color: #24292E;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    list-style: none;
+    padding: 6px 16px;
+    position: relative;
+    transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    word-wrap: break-word;
+    position: relative;
+    top: 90px;
+    left: -463px;
+    width: 260px;
+    border: none;
+}
+.animated-text{
+    font-size: 34px;
+    font-weight: 600;
+    min-width: 280px;
+    left: 1620px;
+    position: relative;
+    top: -100px;
+}
+
+.animated-text span{
+    position: relative;
+
+}
+
+.animated-text span::before{
+    content: "Pentester";
+    color: #f14708;
+    animation: words 20s infinite;
+}
+
+.animated-text span::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    background-color: #1D1E23;
+    border-left: 2px solid #ff4400;
+    right: -8px;
+    animation: cursor .8s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor {
+    to{
+        border-left: 2px solid #ff7f5000;
+    }
+}
+
+@keyframes words {
+    0%,20%{
+        content: "Pentester";
+    }
+    21%,40%{
+        content: "Developer";
+    }
+}
+
+@keyframes typing {
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+        width: 0;
+    }
+    5%,20%,25%,40%,45%,60%,65%,80%,85%{
+        width: calc(100% + 8px);
+    }
+}
+
